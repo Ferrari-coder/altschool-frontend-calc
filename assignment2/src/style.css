@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(245deg, #daf0ff, #109dff);
+}
+.main-container h2{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+.container {
+  margin: 2rem auto;
+  width: 250px;
+  background: rgba(21,27,34,0.9);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.answer{
+    max-width: 100%;
+    text-align: right;
+    height: 180px;
+    font-size: 1.5em;
+    color:#fff;
+    padding: 30px 10px;
+}
+.answer .question{
+  font-size: 15px;
+}
+.answer .result{
+  font-size: 30px;
+  margin-top: 5px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.first-row{
+    background: rgb(48,49,54);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #28A2F7;
+    margin-top: 10px;
+}
+.first-row:hover{
+  background: rgb(75, 77, 87);
+}
+.del{
+    background: rgb(90,93,96);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.del:hover{
+  background: rgb(113, 122, 131);
+}
+.operator{
+    background: #005DB2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #28A2F7;
+}
+.operator:hover{
+  background: #3080ca;
+
+}
+.biggi{
+   grid-row: 4/6;
+  grid-column: 4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57px;
+}
+.number{
+  background:#303137;
+  text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #28A2F7;
+}
+.number:hover{
+  background: rgb(75, 77, 87);
+}
+.zero{
+  grid-column: 1/3;
+}
+.equals{
+  grid-row: 5/span 2;
+  grid-column: 4;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: #1991FF;
+  color: #fff;
+}
+
+
+/* container background = #B1D5F0
+main-background - #DAF0FF
+ans text = #424242
+sign text = #61AAE7
+equal text = white
+number text and first-row = white
+signs background = #9AC6EA
+equals backgroung = #19ACFF
+numbers and first-row background = #C2E0F5
+
+figma link   https://www.figma.com/file/a2KCpu3cuPY8sXxAbBjkNX/Calculator-App-Ui-Design-Download-Free-(Community)?node-id=70%3A125 */
