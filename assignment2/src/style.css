@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(245deg, #daf0ff, #109dff);
+  background:  #109dff;
 }
 .main-container h2{
   font-size: 40px;
@@ -34,6 +34,7 @@ body {
 .answer .result{
   font-size: 30px;
   margin-top: 5px;
+  max-width: 100%;
 }
 .buttons{
     display: grid;
@@ -107,6 +108,10 @@ body {
   margin-top: 25px;
   background: #1991FF;
   color: #fff;
+}
+i{
+  font-size: 12px;
+  color: #28A2F7; 
 }
 
 
