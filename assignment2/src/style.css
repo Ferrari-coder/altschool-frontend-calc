@@ -27,6 +27,7 @@ body {
     font-size: 1.5em;
     color:#fff;
     padding: 30px 10px;
+    word-wrap: break-word;
 }
 .answer .question{
   font-size: 15px;
